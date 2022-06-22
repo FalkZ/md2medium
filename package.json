@@ -1,16 +1,34 @@
 {
   "name": "md2medium",
-  "version": "0.0.3",
-  "description": "",
+  "version": "0.0.4",
+  "description": "this command line tool converts markdown files into a github gist, that can be imported into medium.com",
   "type": "module",
-  "bin": {"md2medium": "./index.js"},
+  "bin": {
+    "md2medium": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "FalkZ",
   "dependencies": {
     "mdast-util-from-markdown": "^1.2.0",
     "mdast-util-to-markdown": "^1.3.0",
     "octokit": "^1.8.0"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalkZ/md2medium.git"
+  },
+  "keywords": [
+    "medium",
+    "gist",
+    "markdown",
+    "md"
+  ],
+  "bugs": {
+    "url": "https://github.com/FalkZ/md2medium/issues"
+  },
+  "homepage": "https://github.com/FalkZ/md2medium#readme"
 }
