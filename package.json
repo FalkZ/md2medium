@@ -1,0 +1,16 @@
+{
+  "name": "md2medium",
+  "version": "0.0.3",
+  "description": "",
+  "type": "module",
+  "bin": {"md2medium": "./index.js"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "mdast-util-from-markdown": "^1.2.0",
+    "mdast-util-to-markdown": "^1.3.0",
+    "octokit": "^1.8.0"
+  }
+}
